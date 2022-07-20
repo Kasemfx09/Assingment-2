@@ -13,7 +13,7 @@ section {
     margin: 0 auto;
     padding: 15px;
 }
-
+/* Banner/Header section */
 #banner {
     background: #161616;
     border-radius: 30px;
@@ -31,8 +31,7 @@ section {
 }
 
 #banner .banner-container .banner-content {
-    flex-basis: 50%;
-    
+    flex-basis: 50%;    
     position: relative;
 }
 
@@ -72,10 +71,8 @@ section {
 #banner .banner-container .banner-content img {
     margin-top: 30px;
     width: 100%;
-    height: 100%;
+    height: 100%;  
 }
-
-
 .infinite-object {
    display: flex;
    flex-direction: row;
@@ -109,7 +106,7 @@ section {
       }
   }
 
-
+/* Blog section */
 #blog {
     margin: 100px auto;
 }
@@ -215,7 +212,7 @@ section {
     border-radius: 5px;
     color: #FFFFFF;
 }
-
+/* Footer section */
 #footer {
     background: #161616;
 }

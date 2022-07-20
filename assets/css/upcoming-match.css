@@ -12,7 +12,7 @@ section {
     max-width: 1200px;
     margin: 0 auto;
 }
-
+/* Banner/Header section */
 #banner {
     background: #161616;
     border-radius: 30px;
@@ -82,21 +82,15 @@ section {
     0%{      
       transform: rotate(0deg);
     }
- 
-      
     50% { 
         transform: rotate(180deg);
     }
-   
     100% {
         transform: rotate(360deg);
-          
-        
       }
   }
 
-
-
+/* Blog/Upcoming  match section */
 #blog {
     margin: 120px auto;
 }
@@ -155,7 +149,7 @@ section {
 }
 
 
-/* Upcomimg match */
+/* Upcomimg match section*/
 
 #blog .blog-container .blog-transfer-live-content .upcoming-match-info {
     padding: 40px 20px;
@@ -189,7 +183,7 @@ section {
     text-align: center;
     color: #4D4D4D;
 }
-
+/* Footer section */
 #footer {
     background: #161616;
 }
