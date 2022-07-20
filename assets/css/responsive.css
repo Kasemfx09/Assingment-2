@@ -1,0 +1,224 @@
+@media(min-width:1200px){
+
+     /*Extra large Device*/
+}
+
+@media(min-width:992px) and (max-width:1199px){
+
+     /*large Device*/
+}
+
+@media(min-width:768px) and (max-width:991px){
+
+     section {
+          max-width: 1000px;
+          margin: 0 auto;
+          padding: 15px;
+      }
+      /* Header/Banner section responsive */
+      #banner {          
+          margin: 40px auto 0;
+          padding: 0 50px 0;
+      }
+      #banner .banner-container .banner-content h1 {
+          line-height: 45px;
+          font-size: 40px;
+         
+      }
+      #banner .banner-container .banner-content p {          
+          display: none;  
+          
+      }
+      #banner .banner-container .banner-content .content-responsive{
+          display: block;
+          font-size: 14px;
+          line-height: 20px;          
+          padding: 15px 0 40px;
+      }
+      #banner .banner-container .banner-content .content-responsive span{
+          width: 10px;
+          text-overflow: ellipsis;
+          overflow: hidden;  
+          white-space: nowrap;
+      }
+     
+     
+      #banner .banner-container .banner-content button {
+          width: 160px;
+          height: 40px;    
+          font-size: 16px;
+    
+      }
+      /* Blog section responsive*/
+      #blog {
+          margin: 50px auto;
+      }
+      #blog .blog-container {
+         
+          flex-direction: column;
+          gap: 15px;
+          margin-bottom: 30px;
+      }
+      #blog .blog-container .side-menu {
+          flex-direction: row;
+          gap: 20px;
+          padding: 10px 0;
+          background:none;
+          
+      }
+      #blog .blog-container .side-menu a{
+          background: #FFFFFF;
+          border: 1px solid #E8E8E8;
+          
+      }
+      #blog .blog-container .blog-transfer-live-content {
+         
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: repeat(3, 1fr);
+          grid-gap: 1rem;
+      }
+      #blog .blog-container .blog-transfer-live-content .transfer-live-info img{
+          width: 100%;
+          height: auto;
+      }
+      #blog .blog-container .blog-transfer-live-content .transfer-live-info:nth-child(7){
+          display: none;
+      }
+      #blog .blog-container .blog-transfer-live-content .transfer-live-info:nth-child(8){
+          display: none;
+      }
+      #blog .blog-container .blog-transfer-live-content .transfer-live-info:nth-child(9){
+          display: none;
+      }
+      #blog .view-all {
+          width: 550px;
+          text-align: center;
+          margin: 0 auto;
+          display: block;
+      }
+
+}
+
+@media(min-width:576px) and (max-width:767px){
+ /* Small Device*/
+
+}
+@media(max-width:575px){
+ /* Header/Banner section responsive */
+     #banner {          
+          margin: 40px auto 0;
+          padding: 0 10px 0;
+     }
+     #banner .banner-container {
+          display: flex;
+          flex-direction: row-reverse;
+          flex-wrap:wrap;          
+          gap: 15px;
+      }
+      #banner .banner-container .banner-content {
+          flex-basis: 100%;         
+          
+      }
+     #banner .banner-container .banner-content h1 {
+          margin-top: 20px;
+          line-height: 25px;
+          font-size: 25px;
+          text-align: center;
+          padding: 0 25px;
+     }
+     #banner .banner-container .banner-content h1 br{
+          display: none;
+     }
+     #banner .banner-container .banner-content p {          
+          display: none;  
+          
+     }
+     #banner .banner-container .banner-content .content-responsive{
+          display: block;
+          font-size: 14px;
+          line-height: 20px;          
+          padding: 15px 0 15px;
+          text-align: center;
+     } 
+     #banner .banner-container .banner-content button {
+          width: 150px;
+          height: 40px;    
+          font-size: 16px;
+          display: block;
+          margin: 0 auto;
+
+     }
+     .infinite-object {
+          display: none;
+     }
+     /* Blog section responsive*/
+     #blog {
+          margin: 10px auto;
+     }
+     #blog .blog-container {     
+          flex-direction: column;
+          gap: 15px;
+          margin-bottom: 30px;
+     }
+     #blog .blog-container .side-menu {
+          flex-direction: column;
+          gap: 20px;
+          padding: 10px 0;
+          background:none;
+          
+     }
+     #blog .blog-container .side-menu a{
+          background: #FFFFFF;
+          border: 1px solid #E8E8E8;
+          
+     }
+     #blog .blog-container .side-menu a {
+          padding: 10px;
+          font-size: 16px;
+          width:60%;       
+      }
+      #blog .blog-container .side-menu a:nth-child(2) {
+          width:40%;       
+      }
+      #blog .blog-container .side-menu a:nth-child(3) {
+          width:40%;       
+      }
+     #blog .blog-container .blog-transfer-live-content {
+     
+          grid-template-columns: repeat(1, 1fr);
+          grid-template-rows: repeat(6, 1fr);
+          grid-gap: 1rem;
+     }
+     #blog .blog-container .blog-transfer-live-content .transfer-live-info img{
+          width: 100%;
+          height: auto;
+     }
+     #blog .blog-container .blog-transfer-live-content .transfer-live-info:nth-child(7){
+          display: none;
+     }
+     #blog .blog-container .blog-transfer-live-content .transfer-live-info:nth-child(8){
+          display: none;
+     }
+     #blog .blog-container .blog-transfer-live-content .transfer-live-info:nth-child(9){
+          display: none;
+     }
+     /* Footer */
+     #footer .footer-container h2 {        
+          font-size: 20px;         
+          padding: 10px 0 20px;
+          
+      }
+      #footer .footer-container .footer-nav ul {
+          display: flex;
+          flex-direction: column;          
+          gap: 1rem;
+          padding: 20px 0 20px;
+      }
+      #footer .footer-container .footer-nav .social-icon .fab {
+          font-size: 1.5rem;
+         
+          padding: 3px 5px;
+         
+      }
+}
+

@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#banner {
+    background: #161616;
+    border-radius: 30px;
+    margin: 50px auto 0;
+    padding: 0 106px 0;
+}
+
+#banner .banner-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#banner .banner-container .banner-content {
+    flex-basis: 50%;
+    
+    position: relative;
+}
+
+#banner .banner-container .banner-content h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+#banner .banner-container .banner-content p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding: 20px 0; 
+}
+#banner .banner-container .banner-content .content-responsive{
+    display: none;
+}
+#banner .banner-container .banner-content button {
+    width: 187px;
+    height: 56px;
+    background: #DD0000;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+#banner .banner-container .banner-content button .fa-chevron-right {
+    padding-left: 5px;
+}
+
+#banner .banner-container .banner-content img {
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.infinite-object {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.infinite-object .ani-object{
+    width: 0px;
+    height: 10px;
+    animation: fill 5s ease infinite; 
+  
+  }
+  
+  @keyframes fill {
+    0%{ 
+      width: 0%;
+      background-color: #242323; 
+    }
+ 
+      
+    50% { 
+      width: 55%;
+      height: 10px;
+      background-color: hsl(0, 98%, 51%);
+    }
+   
+    100% {
+       width: 0%;  
+       background-color: #1a1919;
+          
+        
+      }
+  }
+
+
+#blog {
+    margin: 100px auto;
+}
+
+#blog .blog-container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+#blog .blog-container .blog-transfer {
+    flex-basis: 25%;
+}
+
+#blog .blog-container .side-menu {
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    background: #161616;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 25px;
+}
+
+#blog .blog-container .side-menu .blog {
+    background-color: #DD0000;
+    color: #FFFFFF;
+}
+
+#blog .blog-container .side-menu a {
+    text-decoration: none;
+    background-color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+    color: #161616;
+    transition: .5s;
+}
+
+#blog .blog-container .blog-transfer-live-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+#blog .blog-container .blog-transfer-live-content .transfer-live-info {
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+
+#blog .blog-container .blog-transfer-live-content .transfer-live-info .transfer-live-details {
+    padding: 15px;
+}
+
+#blog .blog-container .blog-transfer-live-content .transfer-live-info .transfer-live-details a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #161616;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    padding: 3px 16px;
+}
+
+#blog .blog-container .blog-transfer-live-content .transfer-live-info .transfer-live-details p {
+    font-weight: 600;
+    font-size: 18px;
+    color: #161616;
+    margin: 10px 0;
+}
+
+#blog .blog-container .blog-transfer-live-content .transfer-live-info .transfer-live-details.time-comments {
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    align-items: center;
+    padding: .5rem 0;
+}
+
+#blog .blog-container .blog-transfer-live-content .transfer-live-info .transfer-live-details.time-comments span {
+    padding-right: .5rem;
+}
+
+#blog .view-all {
+    width: 550px;
+    text-align: center;
+    margin: 0 auto;
+    display: none;
+}
+
+#blog .view-all a {
+    text-decoration: none;
+    padding: 10px 30px;
+    background: #DD0000;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+#footer {
+    background: #161616;
+}
+
+#footer .footer-container h2 {
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 80px 0 40px;
+    border-bottom: 1px solid #ffffff1a;
+}
+
+#footer .footer-container .footer-nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 40px 0 20px;
+}
+
+#footer .footer-container .footer-nav ul li {
+    list-style: none;
+}
+
+#footer .footer-container .footer-nav ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #B9B9B9;
+    transition: .5s;
+}
+
+#footer .footer-container .footer-nav ul li a:hover {
+    color: #FFFFFF;
+}
+
+#footer .footer-container .footer-nav .social-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 40px;
+}
+
+#footer .footer-container .footer-nav .social-icon a {
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+#footer .footer-container .footer-nav .social-icon .fab {
+    font-size: 2rem;
+    border-radius: 3px;
+    padding: 3px 5px;
+    background-color: #eef1f5;
+    cursor: pointer;
+}
+
+#footer .footer-container .footer-nav .social-icon a:nth-child(1) {
+    color: #0400dd;
+    transition: .5s;
+}
+
+#footer .footer-container .footer-nav .social-icon a:nth-child(1):hover .fab {
+    color: #0704b9;
+}
+
+#footer .footer-container .footer-nav .social-icon a:nth-child(2) {
+    color: #008cdd;
+    transition: .5s;
+}
+
+#footer .footer-container .footer-nav .social-icon a:nth-child(2):hover .fab {
+    color: #24acfa;
+}
+
+#footer .footer-container .footer-nav .social-icon a:nth-child(3) {
+    color: #0166a0;
+    transition: .5s;
+}
+
+#footer .footer-container .footer-nav .social-icon a:nth-child(3):hover .fab {
+    color: #0604a0;
+}
+
+.social-icon a:nth-child(4) {
+    color: #bb036e;
+    transition: .5s;
+}
+
+#footer .footer-container .footer-nav .social-icon a:nth-child(4):hover .fab {
+    color: #e70489;
+}
+
+#footer .footer-container .footer-nav .social-icon a:nth-child(5) {
+    color: #dd0202;
+    transition: .5s;
+}
+
+#footer .footer-container .footer-nav .social-icon a:nth-child(5):hover .fab {
+    color: #fa2020;
+}
